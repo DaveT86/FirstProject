@@ -1,0 +1,43 @@
+/* Nav Bar */
+
+.navbar {
+    background-color:#debd9e;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width:100%;
+    border: 1px solid;
+    position:fixed
+  }
+
+li {
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+    border:1px solid;
+}
+
+li a {
+    display: block;
+    padding:10px
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .active {
+    background-color: #dbf3c5;
+    color: white;
+  }
+
+/* body main */
+
+.hero_image {
+    width: 100%;
+    margin-top: 0px;
+}
