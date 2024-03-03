@@ -1,43 +1,109 @@
-/* Nav Bar */
+/* Reset */
 
-.navbar {
-    background-color:#debd9e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-    width:100%;
-    border: 1px solid;
-    position:fixed
+/* Header */
+
+.page_head {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  flex: 1;
+}
+
+header {
+  display: flex;
+  background-color: #dcbb9c;
+}
+
+  /* Logo */
+
+.logo {
+    max-width: 375px;
+    display: block;
   }
 
-li {
-    display:inline-block;
-    text-align: center;
-    padding: 10px;
-    border:1px solid;
+.logo img {
+  max-width: 375px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  font-family: "Architects Daughter", cursive, sans-serif;
+}
+
+.red_tab {
+  border-bottom: 45px solid #ff160c;  /* height */
+  border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
+  border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
+  height: 0;
+  width: 125px; /*width of the base */
+  vertical-align: bottom;
+  }
+
+
+.yellow_tab {
+  border-bottom: 45px solid #ffff00;  /* height*/
+  border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
+  border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
+  height: 0;
+  width: 125px; /*width of the base */
+  vertical-align: bottom;
+  }
+
+
+.green_tab {
+border-bottom: 45px solid #aaff00;  /* height*/
+border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
+border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
+height: 0;
+width: 125px; /*width of the base */
+vertical-align: bottom;
 }
 
 li a {
-    display: block;
-    padding:10px
+  display:inline-block;
+  line-height:100%;
+  margin-left: -15px;
+  width:125px;
   }
 
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color:rgba(0, 0, 0, 0.2)
   }
 
-  .active {
-    background-color: #dbf3c5;
-    color: white;
-  }
+/* Title */
+.title {
+  margin-left: 10px;
+}
 
-/* body main */
-
-.hero_image {
-    width: 100%;
-    margin-top: 0px;
+.navbar {
+  max-width: 100%;
+  display: block;
 }
