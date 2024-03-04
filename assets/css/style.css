@@ -13,31 +13,34 @@
   flex-direction: column;
 }
 
-.navbar-container {
+  /* Logo */
+
+  .logo {
+    max-width: 100%;
+    display: block;
+  }
+
+.logo img {
+  max-width: 100px;
+}
+
+/* Navbar */
+
+.navbar_container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
   flex: 1;
+  max-width: 100%;
+  display: block;
 }
 
 header {
   display: flex;
   background-color: #dcbb9c;
-}
-
-  /* Logo */
-
-.logo {
-    max-width: 375px;
-    display: block;
-  }
-
-.logo img {
-  max-width: 375px;
 }
 
 nav ul {
@@ -58,33 +61,25 @@ nav ul li a {
   font-family: "Architects Daughter", cursive, sans-serif;
 }
 
-.red_tab {
-  border-bottom: 45px solid #ff160c;  /* height */
-  border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
-  border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
+.tab {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   height: 0;
-  width: 125px; /*width of the base */
-  vertical-align: bottom;
+  width: 125px;
+
+}
+.red_tab {
+  border-bottom: 45px solid #ff160c;
   }
 
 
 .yellow_tab {
-  border-bottom: 45px solid #ffff00;  /* height*/
-  border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
-  border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
-  height: 0;
-  width: 125px; /*width of the base */
-  vertical-align: bottom;
+  border-bottom: 45px solid #ffff00; 
   }
 
 
 .green_tab {
-border-bottom: 45px solid #aaff00;  /* height*/
-border-left: 15px solid transparent; /* change angle by changing pixel value here*/ 
-border-right: 15px solid transparent; /* change angle by changing pixel value here*/ 
-height: 0;
-width: 125px; /*width of the base */
-vertical-align: bottom;
+border-bottom: 45px solid #aaff00;  
 }
 
 li a {
@@ -98,12 +93,43 @@ li a {
     background-color:rgba(0, 0, 0, 0.2)
   }
 
+  .active {
+    border-style: ridge
+  }
+
+/* Recipe Dropdown Menu */
+
+.recipe_menu {
+  display: none;
+  position: absolute;
+  background-color: #FFF7BD;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.tab:hover .recipe_menu {
+  display: block;
+}
+
+.recipe_menu li {
+  display: block;
+}
+
+.recipe_menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.recipe_menu li a:hover {
+  background-color: #FAC8CD;
+}
+
 /* Title */
 .title {
   margin-left: 10px;
+  font-family: "Architects Daughter", cursive, sans-serif;
+  font-size: 2rem;
 }
 
-.navbar {
-  max-width: 100%;
-  display: block;
-}
