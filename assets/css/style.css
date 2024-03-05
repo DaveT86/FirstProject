@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +6,13 @@
 }
 
 /* Header */
-
 .page_head {
   display: flex;
   flex-direction: column;
 }
 
   /* Logo */
-
-  .logo {
+.logo {
     max-width: 100%;
     display: block;
   }
@@ -25,7 +22,6 @@
 }
 
 /* Navbar */
-
 .navbar_container {
   display: flex;
   align-items: flex-start;
@@ -36,6 +32,8 @@
   flex: 1;
   max-width: 100%;
   display: block;
+  position:fixed;
+  z-index: 1;
 }
 
 header {
@@ -98,7 +96,6 @@ li a {
   }
 
 /* Recipe Dropdown Menu */
-
 .recipe_menu {
   display: none;
   position: absolute;
@@ -131,5 +128,69 @@ li a {
   margin-left: 10px;
   font-family: "Architects Daughter", cursive, sans-serif;
   font-size: 2rem;
+  position:relative;
 }
 
+
+/* Home Body */
+
+.body {
+  display: flex;
+  background-color: #dcbb9c;
+}
+
+.body img {
+  padding:2rem;
+  margin:2rem;
+}
+
+.body h2 {
+  width:80%;
+  font-size:1.5rem;
+  text-align: center;
+}
+
+.body p {
+  width:80%;
+  text-align: center;
+  position: relative;
+}
+
+.left {
+  float:left;
+  width:30%;
+  padding:2rem;
+  min-width: 500px;
+}
+
+.middle {
+  width:30%;
+  padding:2rem;
+  min-width: 500px;
+}
+
+.right {
+  float:right;
+  width:30%;
+  padding:2rem;
+  min-width: 500px;
+}
+
+
+
+/*Footer*/
+footer {
+  background-color: #dcbb9c;
+  width:100%
+}
+
+@media screen and (max-width: 768px) {
+.body {
+  flex-direction:column;
+}
+
+.logo {
+  display: none;
+}
+}
+ 
