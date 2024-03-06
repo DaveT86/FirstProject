@@ -21,10 +21,6 @@ body {
     display: block;
   }
 
-.logo img {
-  max-width: 100px;
-}
-
 /* Navbar */
 .navbar_container {
   display: flex;
@@ -134,54 +130,36 @@ li a {
   font-size: 2rem;
 }
 
-
 /* Home Body */
 
-.body {
-  display: flex;
-  background-color: #dcbb9c;
-  width:100vw;
-  justify-content: center;
-}
-
 .body img {
+  display:block;
+  width: 100%;
   padding:2rem;
-  margin:2rem;
+  max-width:400px;
+  margin: 0 auto;
 }
 
 .body h2 {
-  width:80%;
   font-size:1.5rem;
   text-align: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 .body p {
   width:80%;
   text-align: center;
-  position: relative;
+  max-width:400px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.left {
-  float:left;
-  width:30%;
-  padding:2rem;
-  min-width: 500px;
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-.middle {
-  width:30%;
-  padding:2rem;
-  min-width: 500px;
-}
-
-.right {
-  float:right;
-  width:30%;
-  padding:2rem;
-  min-width: 500px;
-}
-
-
 
 /*Footer*/
 footer {
@@ -191,35 +169,15 @@ footer {
   bottom:0px
 }
 
-@media screen and (max-width: 799px) {
-.body {
-  flex-direction:column;
-  justify-content: center;
-  
-}
+@media screen and (max-width: 500px) {
 
 .logo {
   display: none;
 }
 }
- 
-@media screen and (min-width: 800px) and (max-width: 1250px) {
-  .right {
-    position: absolute;
-    top:700px;
-  }
 
-  .left {
-    width:40%;
-    padding:-10px;
+@media screen and (min-width: 1000px) {
+  .body {
+    justify-content: space-around;
   }
-
-  .middle {
-    width:40%;
-    padding:-10px;
-  }
- 
-  .logo {
-    display: none;
-  }
-  }
+}
