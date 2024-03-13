@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;  
+}
 /* Background*/
 
 body {
@@ -169,10 +174,23 @@ footer {
   bottom:0px
 }
 
+/*Recipe*/
+
+.float_left {
+  float: left;
+  padding:2rem;
+}
+
+
+
 @media screen and (max-width: 500px) {
 
 .logo {
   display: none;
+}
+
+.float_left {
+  float:none;
 }
 }
 
