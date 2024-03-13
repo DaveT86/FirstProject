@@ -19,6 +19,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+/*Title Container */
+#title_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
 
   /* Logo */
 .logo {
@@ -133,6 +139,7 @@ li a {
   margin-left: 10px;
   font-family: "Architects Daughter", cursive, sans-serif;
   font-size: 2rem;
+  position:relative;
 }
 
 /* Home Body */
@@ -181,13 +188,17 @@ footer {
   padding:2rem;
 }
 
-
-
-@media screen and (max-width: 500px) {
-
-.logo {
-  display: none;
+#recipe_layout {
+  display:flex;
+  flex-direction: column;
 }
+
+.recipe_text {
+  padding:2rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
 
 .float_left {
   float:none;

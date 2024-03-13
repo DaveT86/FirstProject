@@ -15,10 +15,7 @@
 *Stong brand
 *Informative Landing Page
 *Easy to navigate between recipes
-*Link to printer friendly version of recipes
-*Space for people to comment on recipes
 *Area for users to submit recipes
-*Create social media presense focused around brand and then link to each
 *Link to other sites which share similar interests.
 
 ######progress update 3/3/2024
@@ -31,6 +28,8 @@
 A far easier way to make the effect of binder tabs would have been with images but I decided to try and do it with css, https://stackoverflow.com/questions/51295524/how-to-create-a-box-with-slanted-edges
 
 Researching best colour palettes to use on website food related https://jenndavid.com/colors-that-influence-food-sales-infographic/
+
+Google forms, the website uses an embedded google form to allow people to submit suggestions for future content to the website, google forms was chosen over creating a form mainly because I do not have an email address I'm willing to commit to the site and not currently in the posession of the knowledge to understand .php implementation.
 
 
 
