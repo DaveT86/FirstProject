@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: inherit;  
-}
 /* Background*/
 
 body {
@@ -68,6 +64,8 @@ nav ul li a {
   display: block;
   padding: 15px;
   font-family: "Architects Daughter", cursive, sans-serif;
+  color: inherit;
+  text-decoration: inherit;  
 }
 
 .tab {
@@ -91,19 +89,19 @@ nav ul li a {
 border-bottom: 45px solid #aaff00;  
 }
 
-li a {
+.navbar a {
   display:inline-block;
   line-height:100%;
   margin-left: -15px;
   width:125px;
   }
 
-  li a:hover {
+  .navbar a:hover {
     background-color:rgba(0, 0, 0, 0.2)
   }
 
   .active {
-    border-style: ridge
+    border-style: ridge;
   }
 
 /* Recipe Dropdown Menu */
@@ -173,6 +171,11 @@ li a {
   justify-content: center;
 }
 
+.bottom_padding {
+  display:block;
+  height:5rem;
+}
+
 /*Footer*/
 footer {
   background-color: #dcbb9c;
@@ -196,6 +199,36 @@ footer {
 .recipe_text {
   padding:2rem;
   margin-left: 2rem;
+}
+
+ol {
+  list-style: inside;
+}
+
+ol li {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  padding:.5rem;
+  margin-top: 1rem;
+}
+
+.recipe_layout a {
+  width:10rem;
+  color:blue;
+}
+
+#carrot_lox {
+  margin-top: 2rem;
+}
+
+.recipe_layout a :hover {
+  color:#ff160c
+}
+
+#carrot_lox:target:before {
+  content: '';
+  display: block;
+  height: 20px;
 }
 
 @media screen and (max-width: 768px) {
