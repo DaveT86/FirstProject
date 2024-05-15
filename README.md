@@ -50,7 +50,7 @@ The last page of my website is very simple utilising an embedded google form to 
 
 * My CSS code successfully passed the W3C Validator first time
 * HTML validator highlighted a few issues which I needed to address, I had a few line breaks in the code and a couple superfluous closing tags that had been left behind whilst modifying my code, upon implementing these changes my HTML succeeded in passing the validator.
-* Google Lighthouse in Chrome DevTools highlighted a few improvements that could be made to my SEO I had overlooked adding a meta description in my page head, it also highlighted some improvements that could be be made to my images to improve loading times, I had made my images with web in mind at an optimal resolution for the web however I could of considered using .png > .jpg to make them slightly smaller, I made the decision to keep them as they are this time but will hold it in consideration for future projects, in spite of this my website still achieved a perfect score of 100 on browser and a score of 99 on mobile.
+* Google Lighthouse in Chrome DevTools highlighted a few improvements that could be made to my SEO I had overlooked adding a meta description in my page head, it also highlighted some improvements that could be made to my images to improve loading times, I had made my images with web in mind at an optimal resolution for the web however I could of considered using .png > .jpg to make them slightly smaller, I made the decision to keep them as they are this time but will hold it in consideration for future projects, in spite of this my website still achieved a perfect score of 100 on browser and a score of 99 on mobile.
 ![Lighthouse Browser](Readme/assets/images/LHBrowserTest.png)
 ![Lighthouse Mobile](Readme/assets/images/LHMobileTest.png)
 * My recipe page received a similar score, my suggestion page scored lower due to cookies in the form implemented via embedded IFrame Google Form, I decided the benefits outweighed the negatives and stuck with the current implementation.
@@ -69,7 +69,7 @@ If I was to continue working on this project in the future there would be a numb
 ### Sources and Resources
 
 * In order to achieve the desired appearance of my navigation bar, I utilized custom CSS derived from code found [here](https://stackoverflow.com/questions/51295524/how-to-create-a-box-with-slanted-edges).
-* I researched optimal color palettes for food-related websites, referencing [this resource](https://jenndavid.com/colors-that-influence-food-sales-infographic/).
+* I researched optimal color palettes for food-related websites, ahd this website seemed knowledgable [this resource](https://jenndavid.com/colors-that-influence-food-sales-infographic/).
 * Google Forms was used to facilitate user submissions due to its simplicity and efficient data processing capabilities, as I lacked the necessary tools for implementing a custom form.
 * Chat-GPT and other modern ai's proved invaluable for providing suggestions and proofreading text content and code within the site. [ChatGpt] https://chatgpt.com/
 * Chrome DevTools were essential for CSS modification and understanding margin and spacing adjustments for different screen sizes.
