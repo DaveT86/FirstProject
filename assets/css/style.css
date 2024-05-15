@@ -10,23 +10,12 @@
 body {
   background-color: #dcbb9c;
 }
+
 /* Header */
 .page_head {
   display: flex;
   flex-direction: column;
 }
-/*Title Container */
-#title_container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 4rem;
-}
-
-  /* Logo */
-.logo {
-    max-width: 100%;
-    display: block;
-  }
 
 /* Navbar */
 .navbar_container {
@@ -132,13 +121,18 @@ border-bottom: 45px solid #aaff00;
   background-color: #FAC8CD;
 }
 
-/* Title */
-.title {
+/* Home Head */
+
+#home {
+  margin-top: 4rem;
+}
+
+#home h2 {
   margin-left: 10px;
   font-family: "Architects Daughter", cursive, sans-serif;
   font-size: 2rem;
-  position:relative;
 }
+
 
 /* Home Body */
 
@@ -169,6 +163,10 @@ border-bottom: 45px solid #aaff00;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.margin_top {
+  margin-top: 4rem;
 }
 
 .bottom_padding {
@@ -231,11 +229,27 @@ ol li {
   height: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
 .float_left {
   float:none;
 }
+
+.body {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.body img {
+  margin-right:auto;
+  margin-left: auto;
+}
+
+.tab:hover .recipe_menu {
+  display: none;
+}
+
 }
 
 @media screen and (min-width: 1000px) {
