@@ -125,9 +125,9 @@ border-bottom: 45px solid #aaff00;
 
 .body img {
   display:block;
-  width: 100%;
+  width: 400px;
+  height:400px;
   padding:2rem;
-  max-width:400px;
   margin: 0 auto;
 }
 
@@ -179,6 +179,11 @@ footer {
 #recipe_layout {
   display:flex;
   flex-direction: column;
+}
+
+#recipe_layout img {
+  width:400px;
+  height:400px;
 }
 
 .recipe_text {

@@ -1,10 +1,15 @@
 #Milestone Project 1 Code Institute
 
+##Page title
+
+*Plant Based Can Be easy 
+*Click this link to go to my live website [Plant Based Can Be Easy](https://davet86.github.io/FirstProject/recipes.html)
+
 
 
 ##Project planning
 
-##Page Title : Easy Vegan Recipies
+##Page Title : Easy Vegan Recipes
 
 ###External User's Goal: 
 *People interested in incorparating items into their diet which are vegan.
