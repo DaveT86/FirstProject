@@ -44,22 +44,36 @@
 
 ###Testing
 
+####Validators
+
 *My initial testing highlighted a few problems which were not too hard to address, mainly issues with margin and spacing, I did spend significant time thinking about and tasting the best implementation for my nav bar on mobile, a lot of complicated very clever solutions were tried however I felt the best was was just to diable the on hover sub menu in the nav bar on smaller devices, it's a clean and effective solution.
 
-*My CSS code succesfully passed the W3C Validator
+*My CSS code succesfully passed the W3C Validator first time
+*HTML validator highlighted a few issues which I needed to address, I had a few line breaks in the code and a couple superflourous closing tags that had been left behind whilst modifying my code, upon implementing these changes my HTML succeeded in passing the validator.
+*Google Lighthouse in Chrome Devtools highlighted a few improvemnts that could be made to my SEO I had overlooked adding a meta despcription in my page head, it also highlighted some improvements that could be be made to my imagaes to improve loading times, I had made my images with web in mind at an opimal resolution for the web however I could of considered using .png > .jpg to make them slightly smaller, I made the decision to keep them as they are this time but will hold it in consideration for future projects, in spite of this my website still achieved a perfect socre of 100 on browser and a score of 99 on mobile.
+![Lighthouse Browser](readme/assets/LHBrowserTest.png)
+![Lighthouse Mobile](readme/assets/LHMobileTest.png)
+My recipe page recieved a similar score, my suggestion page scored lower due to cookies in the form implemented via embedded IFrame Google Form, I desided the benefits outweighed the negatives and stuck with the current implementation.
+
+####Manual Testing
+
+The manual testing of my website in chrome, IE and Opera browser on both Windows PC and Android OS did not highlight any issues with the design of my website, I was warned I may have an issue with my styling choices for my navbar and that prooved to be true in the Firefox Browser
 
 
 
-
-###Sources
+###Sources and Recources
 
 In order to make my nav bar appear how I wanted I had to use some cutom css styling derived from code mentioned here, https://stackoverflow.com/questions/51295524/how-to-create-a-box-with-slanted-edges
 
 Researching best colour palettes to use on website food related https://jenndavid.com/colors-that-influence-food-sales-infographic/
 
-Google forms, the website uses an embedded google form to allow people to submit suggestions for future content to the website, google forms was chosen over creating a form mainly because I do not have an email address I'm willing to commit to the site and not currently in the posession of the tools to implement .php.
+Google forms, the website uses an embedded google form to allow people to submit suggestions for future content to the website, google forms was chosen over creating a form mainly because I do not have an email address I'm willing to commit to the site and not currently in the posession of the tools to implement .php and additional it seemed like a better way to process the data recieved than implementing a custom form.
 
 Chat-Gpt proved to be an invaluable tool for offering suggestions to fix problems I encountered and also for proof reading text content and code within the site https://chatgpt.com/
+
+Chrome-Dev Tools- Proved invauable for modifying my css and undertstanding the margin and spacing required to make my site as visuabbly apealing as possible on different screen sizes.
+
+VSCode was the IDE I chose for this project, seems to have a good amount of QOL and despite being intitally daunting as someone with no proper prior experience in coding surprisingly intuitive and for the task at hand.
 
 
 
