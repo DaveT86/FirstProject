@@ -26,10 +26,10 @@
 #### Landing Page
 
 *My initial design choice was to have a large hero image on the sites landing page 
-![Home Version1](readme/assets/homever1.png)
+![Home Version1](Readme/assets/homever1.png)
 *However I did not like the way this interacted with smaller viewing devices and I made the decision to make my informative website more informative from the get go whilst still maintaining a good first impression.
 *My revised landing page took into account the responsiveness required for viewing on PC, Phone and Tablet and I was confident that I would be able to implement it using flex properties in CSS.
-![Home Version2](readme/assets/homever2.png)
+![Home Version2](Readme/assets/homever2.png)
 
 
 #### Recipe Page
@@ -37,7 +37,7 @@
 * My initial intention for the recipe page exceeded the project's requirements, aiming for a sleek website utilizing I-frames with follow-along instructions and comprehensive recipe information.
 * Despite simplifying my eventual design, I believe it still meets the external users' goal and fulfills my objectives as a site owner.
 * I opted for a single web page with anchors for each recipe and external links to the featured recipes on other websites.
-![Recipe Page](readme/assets/recipe.png)
+![Recipe Page](Readme/assets/recipe.png)
 
 
 #### Contact Page
@@ -51,8 +51,8 @@
 *My CSS code successfully passed the W3C Validator first time
 *HTML validator highlighted a few issues which I needed to address, I had a few line breaks in the code and a couple superfluous closing tags that had been left behind whilst modifying my code, upon implementing these changes my HTML succeeded in passing the validator.
 *Google Lighthouse in Chrome DevTools highlighted a few improvements that could be made to my SEO I had overlooked adding a meta description in my page head, it also highlighted some improvements that could be be made to my images to improve loading times, I had made my images with web in mind at an optimal resolution for the web however I could of considered using .png > .jpg to make them slightly smaller, I made the decision to keep them as they are this time but will hold it in consideration for future projects, in spite of this my website still achieved a perfect score of 100 on browser and a score of 99 on mobile.
-![Lighthouse Browser](readme/assets/LHBrowserTest.png)
-![Lighthouse Mobile](readme/assets/LHMobileTest.png)
+![Lighthouse Browser](Readme/assets/LHBrowserTest.png)
+![Lighthouse Mobile](Readme/assets/LHMobileTest.png)
 *My recipe page received a similar score, my suggestion page scored lower due to cookies in the form implemented via embedded IFrame Google Form, I decided the benefits outweighed the negatives and stuck with the current implementation.
 
 #### Manual Testing
