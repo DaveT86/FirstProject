@@ -221,6 +221,11 @@ ol li {
   height: 20px;
 }
 
+.suggestions {
+  width:640px;
+  height:721px;
+}
+
 @media screen and (max-width: 600px) {
 
 .float_left {
