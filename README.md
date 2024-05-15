@@ -59,7 +59,7 @@ The last page of my website is very simple utilising an embedded google form to 
 
 * My initial testing phase highlighted a few problems which were not too hard to address, mainly issues with margins and spacing.
 * I did spend significant time thinking about and testing the best implementation for my nav bar on mobile, a lot of complicated very clever solutions were tried however I felt the best one was just to disable the on hover sub menu in the nav bar on smaller devices, it's a clean and effective solution.
-* The manual testing of my website in chrome, IE and Opera browser on both Windows PC and Android OS did not highlight any issues with the design of my website, I was warned I may have an issue with my styling choices for my navbar on some browsers and that proved to be true in the Mozilla Firefox Browser, I implemnted a media query targetting Mozilla browsers which isn't prefect but does make the nav bar display better then it was.
+* The manual testing of my website in chrome, IE and Opera browser on both Windows PC and Android OS did not highlight any issues with the design of my website, I was warned I may have an issue with my styling choices for my navbar on some browsers and that proved to be true in the Mozilla Firefox Browser, I implemnted a media query targetting Mozilla browsers which isn't perfect but does improve it some what.
 
 ### What's Next For This Project?
 
