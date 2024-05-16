@@ -121,6 +121,17 @@ border-bottom: 45px solid #aaff00;
   background-color: #FAC8CD;
 }
 
+/* Styling for header text */
+
+.headertext {
+  display:block;
+  margin-top: 4rem;
+  margin-left:4rem;
+  margin-right:4rem;
+  font-family: "Architects Daughter", cursive, sans-serif;
+  text-align: center;
+}
+
 /* Home Body */
 
 .body img {
@@ -162,6 +173,7 @@ border-bottom: 45px solid #aaff00;
 }
 
 /*Footer*/
+
 footer {
   background-color: #dcbb9c;
   width:100%;
@@ -223,7 +235,7 @@ ol li {
 
 .suggestions {
   width:640px;
-  height:721px;
+  height:800px;
   margin-top: 2rem;
 }
 
