@@ -86,11 +86,12 @@ border-bottom: 45px solid #aaff00;
   }
 
   .navbar a:hover {
-    background-color:rgba(0, 0, 0, 0.2)
+    background-color:rgba(0, 0, 0, 0.1)
   }
 
   .active {
-    border-style: ridge;
+    font-style: italic;
+    font-weight: bolder;
   }
 
 /* Recipe Dropdown Menu */
@@ -123,7 +124,7 @@ border-bottom: 45px solid #aaff00;
 
 /* Styling for header text */
 
-.headertext {
+h1 {
   display:block;
   margin-top: 4rem;
   margin-left:4rem;
